@@ -20,8 +20,8 @@ This lab will be broken into three parts:
 
 ### Part 1 — Setup your LinuxONE guest
 
-1. [Access your guest.](#Access-your-LinuxONE-guest) 
-2. [Run a setup script.](#Setup-your-blockchain-environment)
+1. [Access your guest.](#access-your-LinuxONE-guest) 
+2. [Run a setup script.](#setup-your-blockchain-environment)
 4. [Verify the installation of Hyperledger Fabric and Hyperledger Composer](#verify-the-installation-of-hyperledger-fabric-and-hyperledger-composer)
 
 ### Part 2 — Creating a blockchain application and generating API
