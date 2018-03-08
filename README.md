@@ -59,7 +59,7 @@ In this section of the lab, you will use PuTTy to connect to your LinuxONE guest
 
 2. This lab document assumes your lab instructors have already started your VPN for you. If you cannot get the next step to work, please ask a lab instructor for assistance.
 
-2. **Open** PuTTy and **select** the preconfigured session showing the IP address of your guest to connect to your LinuxONE guest. Once you're connected you should see something like the image below.
+3.  **Open** PuTTy and **select** the preconfigured session showing the IP address of your guest to connect to your LinuxONE guest. Once you're connected you should see something like the image below.
 
    ```
    Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-116-generic s390x)
@@ -72,7 +72,7 @@ In this section of the lab, you will use PuTTy to connect to your LinuxONE guest
 
    #### Setup your blockchain environment
 
-3. To save time in this lab, the pre-requisites for this lab are already installed. Use the following commands to verify installation.
+4. To save time in this lab, the pre-requisites for this lab are already installed. Use the following commands to verify installation.
 
    * Docker: `docker -v`
 
@@ -84,30 +84,30 @@ In this section of the lab, you will use PuTTy to connect to your LinuxONE guest
 
   ![Verify the environment pre-requisites are installed.](images/verifyPreReqs.png)
 
-4. To be ready to build your first blockchain application, you'll need to get everything running. This has been scripted for you. In your terminal, enter `ls` to see what is in your home directory. You should find a script called *SHARESacramentoBlockchainScript.sh*.
+5. To be ready to build your first blockchain application, you'll need to get everything running. This has been scripted for you. In your terminal, enter `ls` to see what is in your home directory. You should find a script called *SHARESacramentoBlockchainScript.sh*.
 
    ![View setup script.](images/setupScript.png)
 
-5. Take a look at the script to see the commands that will be run to start up your blockchain environment by issuing `cat SHARESacramentoBlockchainScript.sh`.
+6. Take a look at the script to see the commands that will be run to start up your blockchain environment by issuing `cat SHARESacramentoBlockchainScript.sh`.
 
    ![View setup script.](images/viewScript.png)
 
-6. Enter `./SHARESacramentoBlockchainScript.sh` to run the script.
+7. Enter `./SHARESacramentoBlockchainScript.sh` to run the script.
 
    ![Results of successful completion of setup script.](images/finishedSetupScript.png)
 
    ​
 #### Verify the installation of Hyperledger Fabric and Hyperledger Composer
 
-7. To see if your blockchain network is up and running, use the command `docker ps -a`. You should see 4 containers with image names like the ones shown below.
+8. To see if your blockchain network is up and running, use the command `docker ps -a`. You should see 4 containers with image names like the ones shown below.
 
 ![Running fabric containers.](images/RunningFabricContainers.png)
 
-8. Verify Composer Playground is running by looking for its process using the command, `ps -ef|grep playground`. 
+9. Verify Composer Playground is running by looking for its process using the command, `ps -ef|grep playground`. 
 
 ![Verify Composer Playground is running.](images/VerifyComposerPlaygroundRunning.png)
 
-9. Open a browser and enter `xxx.xxx.x.x:8080` into the address bar where the x's correspond to your Linux guest's IP address. 
+10. Open a browser and enter `xxx.xxx.x.x:8080` into the address bar where the x's correspond to your Linux guest's IP address. 
 
 * **Note:** It is recommended to use Chrome as your browser for Hyperledger Composer Playground. It is also recommended that you open the Playground in a Incognito Window. This allows you to quickly clear cache and history if you start noticing odd behaviors.
 * **Note:** If you use Firefox, you cannot use it in Private mode. 
@@ -117,7 +117,7 @@ In this section of the lab, you will use PuTTy to connect to your LinuxONE guest
 
 ![Loaded Composer Playground.](images/ComposerPlaygroundUI2.png)
 
-10. Congratulations! Part 1 is now complete! Lets get to work on the fun part. :smiley:
+11. Congratulations! Part 1 is now complete! Lets get to work on the fun part. :smiley:
 
 ### Part 2 — Creating a blockchain application and generating API
 
