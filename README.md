@@ -458,11 +458,9 @@ In this section of the lab, you will use PuTTy to connect to your LinuxONE guest
 
 #### Generating API
 
-63. In your terminal, issue the following commands to start the API rest server:
+63. In your terminal, issue the following command to start the API rest server:
 
-    *  `mkdir /data/linux1/playground`
-
-    * `nohup composer-rest-server -c admin@hlfv1-blockchain-journey -n always -w true >/data/linux1/playground/rest.stdout 2>/data/linux1/playground/rest.stderr & disown`
+    * `nohup composer-rest-server -c admin@hlfv1-blockchain-journey -n always -w true >/home/bcuser/playground/rest.stdout 2>/home/bcuser/playground/rest.stderr & disown`
 
       ![Start your API rest server.](images/StartRestServer.png)
 
