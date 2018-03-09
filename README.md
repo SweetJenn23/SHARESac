@@ -458,25 +458,25 @@ In this section of the lab, you will use PuTTy to connect to your LinuxONE guest
 
 #### Generating API
 
-63. In your terminal, issue the following command to start the API rest server:
+54. In your terminal, issue the following command to start the API rest server:
 
     * `nohup composer-rest-server -c admin@hlfv1-blockchain-journey -n always -w true >/home/bcuser/playground/rest.stdout 2>/home/bcuser/playground/rest.stderr & disown`
 
       ![Start your API rest server.](images/StartRestServer.png)
 
-64. Verify the rest server process is running. `ps -ef|grep rest`
+55. Verify the rest server process is running. `ps -ef|grep rest`
 
     ![Verify the rest server is running.](images/VerifyRestServer.png)
 
-65. To see your API, go back to your browser and open a new tab or window. In the address bar, enter `http://xxx.xxx.x.x:3000/explorer` where the x's are the IP address for your Linux guest. You should see a page like the one shown.
+56. To see your API, go back to your browser and open a new tab or window. In the address bar, enter `http://xxx.xxx.x.x:3000/explorer` where the x's are the IP address for your Linux guest. You should see a page like the one shown.
 
     ![View your REST APIs.](images/RestAPI.png)
 
-66. Expand the different methods to see the various calls and parameters you can make through REST API. You can also test the API in this browser to learn how to form the API and see the responses.
+57. Expand the different methods to see the various calls and parameters you can make through REST API. You can also test the API in this browser to learn how to form the API and see the responses.
 
     ![Test your API.](images/TestAPI.png)
 
-67. Congratulations! You now have a working blockchain application and have created APIs to call your blockchain application.
+58. Congratulations! You now have a working blockchain application and have created APIs to call your blockchain application.
 
 
 
